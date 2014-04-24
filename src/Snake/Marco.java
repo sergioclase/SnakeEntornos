@@ -19,7 +19,6 @@ public class Marco extends javax.swing.JFrame implements ActionListener {
         this.getContentPane().add(can);
         this.addKeyListener(can);
         tSnake.start();
-        System.out.println("Primer Commit");
     }
 
     @SuppressWarnings("unchecked")
